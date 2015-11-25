@@ -12,6 +12,6 @@ public class MyDisplay extends PApplet {
 
 	public void draw()
 	{
-		
+		ellipse(width/2, height/2, 300, 300);
 	}
 }
