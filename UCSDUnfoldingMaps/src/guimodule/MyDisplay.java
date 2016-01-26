@@ -17,8 +17,11 @@ public class MyDisplay extends PApplet {
 
 	public void draw()
 	{
+		//background
 		webImg.resize(0,  600);
 		image(webImg, 0, 0);
+		//head
+		fill(232, 120, 106);
 		ellipse(width/2, height/2, 300, 300);
 	}
 }
