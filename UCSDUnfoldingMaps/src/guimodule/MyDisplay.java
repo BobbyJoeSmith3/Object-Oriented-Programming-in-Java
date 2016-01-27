@@ -23,5 +23,9 @@ public class MyDisplay extends PApplet {
 		//head
 		fill(232, 120, 106);
 		ellipse(width/2, height/2, 300, 300);
+		//eyes
+		fill(0,0,0);
+		ellipse(250, 240, 45, 60);
+		ellipse(350, 240, 45, 60);
 	}
 }
