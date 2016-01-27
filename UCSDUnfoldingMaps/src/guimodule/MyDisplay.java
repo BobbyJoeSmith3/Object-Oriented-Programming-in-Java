@@ -20,12 +20,18 @@ public class MyDisplay extends PApplet {
 		//background
 		webImg.resize(0,  600);
 		image(webImg, 0, 0);
+		
 		//head
 		fill(232, 120, 106);
 		ellipse(width/2, height/2, 300, 300);
+		
 		//eyes
 		fill(0,0,0);
 		ellipse(250, 240, 45, 60);
 		ellipse(350, 240, 45, 60);
+		
+		//mouth
+		noFill();
+		arc(300, 325, 100, 100, QUARTER_PI, PI-QUARTER_PI);
 	}
 }
